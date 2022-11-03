@@ -3,9 +3,9 @@ public class sumFunc {
     public static void main(String[] args) {
         int zahl = 6;
 
-        System.out.print("Rekursiv" + sumFunctionRecursive(zahl));
+        System.out.println("Rekursiv " + sumFunctionRecursive(zahl));
 
-        System.out.println("Iterativ" + sumFunctionIterative(zahl));
+        System.out.println("Iterativ " + sumFunctionIterative(zahl));
 
 
 
