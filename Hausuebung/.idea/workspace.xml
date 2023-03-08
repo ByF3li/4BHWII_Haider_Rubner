@@ -34,16 +34,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Singleton_Test">
     <configuration name="CharAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CharAlgo" />
-      <module name="Algorythm" />
+      <module name="Hausuebung" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndRekursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EndRekursion" />
+      <module name="Hausuebung" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.Singleton_Test" />
+      <module name="Hausuebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sumFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumFunc" />
+      <module name="Hausuebung" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton_Test" />
+        <item itemvalue="Application.EndRekursion" />
+        <item itemvalue="Application.sumFunc" />
         <item itemvalue="Application.CharAlgo" />
       </list>
     </recent_temporary>
@@ -61,6 +91,18 @@
       <workItem from="1663838762002" duration="646000" />
       <workItem from="1664365933925" duration="938000" />
       <workItem from="1664367120013" duration="19000" />
+      <workItem from="1665652861563" duration="11000" />
+      <workItem from="1665652891155" duration="773000" />
+      <workItem from="1666020108842" duration="607000" />
+      <workItem from="1667465756079" duration="98000" />
+      <workItem from="1667465874149" duration="95000" />
+      <workItem from="1667466048603" duration="152000" />
+      <workItem from="1667468327336" duration="45000" />
+      <workItem from="1667469307732" duration="1970000" />
+      <workItem from="1668007687171" duration="1336000" />
+      <workItem from="1668073710537" duration="1243000" />
+      <workItem from="1678291577287" duration="34000" />
+      <workItem from="1678291687822" duration="1130000" />
     </task>
     <servers />
   </component>
