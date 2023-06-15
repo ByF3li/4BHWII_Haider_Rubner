@@ -6,7 +6,7 @@ public class ChildTicket implements Ticket{
 
 
     @Override
-    public void calcPrice() {
-        System.out.println("Kinderticket: " + (tax+price));
+    public double calcPrice() {
+        return (tax+price);
     }
 }

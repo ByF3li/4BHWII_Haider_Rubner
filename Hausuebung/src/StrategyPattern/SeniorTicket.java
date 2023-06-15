@@ -5,7 +5,7 @@ public class SeniorTicket implements Ticket {
     private double price = 19.90;
 
     @Override
-    public void calcPrice() {
-        System.out.println("Seniorenticket: " + (tax+price));
+    public double calcPrice() {
+        return (tax+price);
     }
 }

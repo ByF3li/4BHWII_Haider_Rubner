@@ -1,14 +1,22 @@
 package StrategyPattern;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StrategyTest {
     public static void main(String[] args) {
+
+        ShoppingCart cart = new ShoppingCart();
+
         Ticket child = new ChildTicket();
-        child.calcPrice();
+        cart.addShoppingCart(child);
 
         Ticket adult = new AdultTicket();
-        adult.calcPrice();
+        cart.addShoppingCart(adult);
 
         Ticket senior = new SeniorTicket();
-        senior.calcPrice();
+        cart.addShoppingCart(senior);
+
+        System.out.println("Total: " + cart.calcTotal());
     }
 }

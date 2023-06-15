@@ -1,5 +1,5 @@
 package StrategyPattern;
 
 public interface Ticket {
-    public void calcPrice();
+    public double calcPrice();
 }
